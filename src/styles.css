@@ -29,32 +29,16 @@ ol{
     font-size: 2rem;
 }
 
-fieldset{
-    border: 1px solid;
-    padding: 10px;
-    margin-bottom: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px red(31, 10, 10, 0.1);
-}
+            fieldset{
+                border: 1px solid;
+                padding: 10px;
+                margin-bottom: 20px;
+                border-radius: 10px;
+                box-shadow: 0 0 10px red(31, 10, 10, 0.1);
+            }
 
-legend{
-font-size: 18px;
-font-weight: bold;
-margin-bottom: 10px;
-}
-
-li:hover{
-    transform: scale(1.05);
-    cursor:pointer;
-}
-
-li{
-    transition: 300ms ease-in;
-}
-
-footer {
-    width: 100%;
-    background-color: rgb(8, 2, 11);
-    min-height: 300px;
-    color: white;
-}
+           legend{
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 10px;
+            }
