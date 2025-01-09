@@ -37,8 +37,32 @@ ol{
                 box-shadow: 0 0 10px red(31, 10, 10, 0.1);
             }
 
+<<<<<<< HEAD
+legend{
+font-size: 18px;
+font-weight: bold;
+margin-bottom: 10px;
+}
+
+li:hover{
+    transform: scale(1.05);
+    cursor:pointer;
+}
+
+li{
+    transition: 300ms ease-in;
+}
+
+footer {
+    width: 100%;
+    background-color: rgb(8, 2, 11);
+    min-height: 300px;
+    color: white;
+}
+=======
            legend{
             font-size: 18px;
             font-weight: bold;
             margin-bottom: 10px;
             }
+>>>>>>> b69be94cff8117bcf37e12bc6941659448716418
