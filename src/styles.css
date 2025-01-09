@@ -29,20 +29,16 @@ ol{
     font-size: 2rem;
 }
 
-<<<<<<< HEAD
-            
-=======
-fieldset{
-    border: 1px solid;
-    padding: 10px;
-    margin-bottom: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px red(31, 10, 10, 0.1);
-}
+            fieldset{
+                border: 1px solid;
+                padding: 10px;
+                margin-bottom: 20px;
+                border-radius: 10px;
+                box-shadow: 0 0 10px red(31, 10, 10, 0.1);
+            }
 
-legend{
-font-size: 18px;
-font-weight: bold;
-margin-bottom: 10px;
-}
->>>>>>> refs/remotes/origin/main
+           legend{
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 10px;
+            }
