@@ -1,32 +1,40 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <link rel="stylesheet" href="login.css
-        ">
-        <title>Project sign up page</title>
-        </head>
-        <body>
-        <form>
-            <fieldset>
-                <legend>Sign up</legend>
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email">
-                <br>
-                <br>
-                <label for="username">Username:</label>
-                <input type="text" id="username" name="username">
-            <br>
-            <br>
-                <label for="password">Password:</label> 
-                <input type="password" id="password" name="password" passwordInput.type="password">
-                <br>
-                <br>
-            </fieldset>
+
+            <!DOCTYPE html>
+            <html lang="en">
+            <head>
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <title>Project login page</title>
+                <link rel="stylesheet" href="login.css">
+            </head>
+            <body>
+                <div class="container">
+                    <div class="logo">Project.com</div>
+                    <div class="login-box">
+                        <h2>Login</h2>
+                        <form action="/login" method="POST">
+                            <div class="input-group">
+                                <label for="username">Username</label>
+                                <input type="text" id="username" name="username" required>
+                            </div>
+                            <div class="input-group">
+                                <label for="password">Password</label>
+                                <input type="password" id="password" name="password" required>
+                            </div>
+                            <div class="actions">
+                                <a href="#" class="forgot-password">Forgot Password?</a>
+                            </div>
+                            <button type="submit" class="login-btn">Login</button>
+                        </form>
+                    </div>
+                    <footer>
+                        <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a>
+                    </footer>
+                </div>
             <p>Thank you for signing up
             </p>
             <button>
                 <a href="index.html">page 2</a>
             </button>
-        </form>
     </body>
     </html>
